@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Map</title>
+	<link rel="stylesheet" type="text/css" href="css.css">
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+
+  </head>
+<body>
+
+<br><br>
+<!--Create an image gallery for the menu-->  
+<div class="img">
+  <a href="index.html"><img src="home.png" width="100%" height="100%">
+  </a>
+</div>
+
+<div class="img">
+  <a href="beers.html"><img src="beermug3.png" width="100%" height="100%">
+  </a>
+</div>
+
+<div class="img">
+  <a href="festival.html"><img src="festival2.png" width="100%" height="100%">
+  </a>
+</div>
+
+<div class="img">
+  <a href="brewery.html"><img src="brewery3.png" width="100%" height="100%">
+  </a>
+</div>
+
+<div class="img">
+  <a href="contact.html"><img src="contact2.png" width="100%" height="100%">
+  </a>
+</div>
+
+<div class="img">
+  <a href="login.html"><img src="login2.png" width="100%" height="100%">
+  </a>
+</div>
+<br><br><br><br>
+
+<div id="map"></div>
+    <script>
+      var map;
+      function initMap() {
+	  var myLatLong = {lat: 52.1987, lng: -2.2332};
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: myLatLong,
+          zoom: 14,
+		  mapTypeId: 'terrain',
+        });
+		
+		  var marker = new google.maps.Marker({
+		position: myLatLong,
+		map: map,
+		title: 'Hello World!'
+		});
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYnDqcmQejmV4sto-62CQ3yAnXEqSvB_I&callback=initMap"
+    async defer></script>
+
+<div class="footer"><a target="_blank" title="follow me on facebook" href="http://www.facebook.com/yourtri"><img alt="follow me on facebook" src="https://c866088.ssl.cf3.rackcdn.com/assets/facebook30x30.png" border=0></a>
+<a target="_blank" title="follow me on Twitter" href="http://www.twitter.com/PLACEHOLDER"><img alt="follow me on Twitter" src="https://c866088.ssl.cf3.rackcdn.com/assets/twitter30x30.png" border=0></a>
+<a target="_blank" title="follow me on youtube" href="http://www.youtube.com/PLACEHOLDER"><img alt="follow me on youtube" src="https://c866088.ssl.cf3.rackcdn.com/assets/youtube30x30.png" border=0></a>
+<a target="_blank" title="follow me on instagram" href="http://www.instagram.com/PLACEHOLDER"><img alt="follow me on instagram" src="https://c866088.ssl.cf3.rackcdn.com/assets/instagram30x30.png" border=0></a>
+
+<br>Beersofthefestival.co.uk</div>  
+  
+  </body>
+</html>
