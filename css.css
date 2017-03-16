@@ -60,9 +60,13 @@ header {
 
 #map {
     height: 50%;
-      }
+}
 
 html, body {
     height: 70%;
+}
 
-      }
+.search { 	
+	padding: 10px;            /* Overridden by padding: 1px; */
+	font-family: Georgia;     /* Overridden by font: -webkit-small-control; */
+}
