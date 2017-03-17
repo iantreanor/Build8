@@ -15,48 +15,27 @@ Beers
 <body>
 
 <br><br>
-<!--Create an image gallery for the menu-->  
-<div class="img">
-  <a href="index.html"><img src="home.png" width="100%" height="100%">
-  </a>
+<div data-role="header" data-position="fixed">
+	<h1>Beers of the Festival</h1>
 </div>
 
-<div class="img">
-  <a href="beers.html"><img src="beermug3.png" width="100%" height="100%">
-  </a>
-</div>
+<div data-role="main" class="ui-content">
+<p>In 2017 we currently host 4 festivals with a combined 779 beers.</p>
+<p>Take a look at them here.....</p>
 
-<div class="img">
-  <a href="festival.html"><img src="festival2.png" width="100%" height="100%">
-  </a>
-</div>
 
-<div class="img">
-  <a href="brewery.html"><img src="brewery3.png" width="100%" height="100%">
-  </a>
-</div>
-
-<div class="img">
-  <a href="contact.html"><img src="contact2.png" width="100%" height="100%">
-  </a>
-</div>
-
-<div class="img">
-  <a href="login.html"><img src="login2.png" width="100%" height="100%">
-  </a>
-</div>
-<br><br><br><br>
-<header>
-<img src="beerlogo.png" class="logoimg2">
-<p>The full list of beers appearing at all 2017 festivals</p>
-</header>
-
- <table id="mobilebeers">
+<form>
+    <input id="filterTable-input" data-type="search" placeholder="Search for name, type, strength.......">
+</form>
+<table data-role="table" id="allbeers" data-filter="true" data-input="#filterTable-input" class="ui-responsive">
+<thead>
   <tr>
-    <th><b>Name</th>
-    <th><b>Strength</th>
-	<th><b>Type</th>
+    <th>Name</th>
+    <th>Strength</th>
+	<th>Type</th>
   </tr>
+  </thead>
+  <tbody>
 <tr><td>	Blue Sky Drinking	</td><td>	4.40	%	</td><td>	IPA	</td></tr>
 <tr><td>	Blonde	</td><td>	4.10	%	</td><td>	Golden Ale	</td></tr>
 <tr><td>	Coaltown	</td><td>	5.00	%	</td><td>	IPA	</td></tr>
@@ -837,15 +816,21 @@ Beers
 <tr><td>	Dorothy Goodbody's Golden Ale	</td><td>	4.20	%	</td><td>	Golden Ale	</td></tr>
 <tr><td>	The Hopfather	</td><td>	3.90	%	</td><td>	IPA	</td></tr>
 
-
-  
+</tbody>
 </table>
+</div>
  
-<div class="footer"><a target="_blank" title="follow me on facebook" href="http://www.facebook.com/yourtri"><img alt="follow me on facebook" src="https://c866088.ssl.cf3.rackcdn.com/assets/facebook30x30.png" border=0></a>
-<a target="_blank" title="follow me on Twitter" href="http://www.twitter.com/PLACEHOLDER"><img alt="follow me on Twitter" src="https://c866088.ssl.cf3.rackcdn.com/assets/twitter30x30.png" border=0></a>
-<a target="_blank" title="follow me on youtube" href="http://www.youtube.com/PLACEHOLDER"><img alt="follow me on youtube" src="https://c866088.ssl.cf3.rackcdn.com/assets/youtube30x30.png" border=0></a>
-<a target="_blank" title="follow me on instagram" href="http://www.instagram.com/PLACEHOLDER"><img alt="follow me on instagram" src="https://c866088.ssl.cf3.rackcdn.com/assets/instagram30x30.png" border=0></a>
+<div data-role="footer" data-position="fixed">
 
-<br>Beersofthefestival.co.uk</div>
+<div data-role="navbar">
+  <ul>
+  <li><a href="index2.html" class="ui.btn-active"><img src="home.png" width="50%" height="50%"></a></li>
+  <li><a href="beers.html" class="ui.btn-active"><img src="beermug3.png" width="50%" height="50%"></a></li>
+  <li><a href="festival.html" class="ui.btn-active"><img src="festival2.png" width="50%" height="50%"></a></li>
+  <li><a href="brewery.html" class="ui.btn-active"><img src="brewery3.png" width="50%" height="50%"></a></li>
+  <li><a href="contact.html" class="ui.btn-active"><img src="contact2.png" width="50%" height="50%"></a></li>
+
+</div>
+</div>
   </body>
 </html>
