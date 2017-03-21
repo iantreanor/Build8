@@ -70,3 +70,9 @@ html, body {
 	padding: 10px;            /* Overridden by padding: 1px; */
 	font-family: Georgia;     /* Overridden by font: -webkit-small-control; */
 }
+
+.crowd img{
+	position: absolute;
+    clip: rect(0px,1000px,500px,0px);
+	opacity: 0.5;
+}
