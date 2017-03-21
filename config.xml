@@ -77,7 +77,7 @@
     -->
 
     <!-- Define app icon for each platform. -->
-    <icon src="E:\Ian Uni\Year 2\Mobile applications development\Icons\icon-57.png" />
+    <icon src="icon.png"/>
 
 
     <!-- Define app splash screen for each platform. -->
