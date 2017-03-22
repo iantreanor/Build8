@@ -25,28 +25,28 @@ Horse racing has taken place here since at least 1718. The beer festival has a s
 
 <H1>Beers</h1><p>Worcester currently has 143 beers to try at the 2017 festival.</p>
 
-<div id="map"></div>
-    <script>
-      var map;
-      function initMap() {
-	  var myLatLong = {lat: 52.1987, lng: -2.2332};
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: myLatLong,
-          zoom: 14,
-		  mapTypeId: 'terrain',
-        });
-		
-		  var marker = new google.maps.Marker({
-		position: myLatLong,
-		map: map,
-		title: 'Hello World!'
-		});
-      }
-    </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYnDqcmQejmV4sto-62CQ3yAnXEqSvB_I&callback=initMap"
-    async defer></script>
-	
+<p>Click the button to get your coordinates.</p>
 
+<button onclick="getLocation()">Try It</button>
+
+<p id="demo"></p>
+
+<script>
+var x = document.getElementById("demo");
+
+function getLocation() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+    } else { 
+        x.innerHTML = "Geolocation is not supported by this browser.";
+    }
+}
+
+function showPosition(position) {
+    x.innerHTML = "Latitude: " + position.coords.latitude + 
+    "<br>Longitude: " + position.coords.longitude;
+}
+</script>
 
 <div data-role="footer" data-position="fixed">
 
