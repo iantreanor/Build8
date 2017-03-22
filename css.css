@@ -73,11 +73,7 @@ html, body {
 	font-family: Georgia;     /* Overridden by font: -webkit-small-control; */
 }
 
-.crowd img{
-	position: absolute;
-    clip: rect(0px,1000px,500px,0px);
-	opacity: 0.5;
-}
+
 
 .ui-page .ui-header {
     background: #f9f9f9 !important; /*change the header background colour*/
