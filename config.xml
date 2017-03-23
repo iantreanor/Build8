@@ -58,7 +58,7 @@
 	<plugin name="cordova-plugin-dialogs"/>
 	<plugin name="cordova-plugin-file"/>
 	<plugin name="cordova-plugin-file-transfer"/>
-	<plugin name="org.apache.cordova.geolocation" spec="0.3.10" source="pgb" />
+	<plugin name="cordova-plugin-geolocation" spec="~2.4.2" />
 	<plugin name="cordova-plugin-globalization"/>
 	<plugin name="cordova-plugin-inappbrowser"/>
 	<plugin name="cordova-plugin-media"/>
