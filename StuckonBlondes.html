@@ -5,16 +5,20 @@
 Beer festival app
 </title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">    
+	<link rel="stylesheet" type="text/css" href="css.css">
 	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
 	<script src="http://code.jquery.com/jquery-1.12.1.min.js"></script>
 	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="css.css">
+<script type="text/javascript" src="Jquery-simple-rating-system-with-small-stars_files/jquery.js"></script>
+<link href="Jquery-simple-rating-system-with-small-stars_files/rating_simple.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="Jquery-simple-rating-system-with-small-stars_files/rating_simple.js"></script>
 
 </head>
 <body>
 
 <div data-role="header" data-position="fixed">
 	<h1>Stuck on Blondes</h1>
+	<a href="javascript:history.back()" data-role="button" data-icon="back">Back</a>
 </div>
 
 
@@ -28,7 +32,19 @@ Beer festival app
 <p>Addition of honey makes this a moreish session bitter, huge hop punch of lemon and lime.
 </p>
 
+<input name="my_input" value="3" id="rating_simple" type="hidden">
 
+    <hr>
+    <script language="javascript" type="text/javascript">
+$(function() {
+$("#rating_simple").webwidget_rating_simple({
+rating_star_length: '5',
+rating_initial_value: '',
+rating_function_name: '',
+directory: 'Jquery-simple-rating-system-with-small-stars_files/'
+});
+});
+</script>
 
 <div data-role="footer" data-position="fixed">
 <div data-role="navbar">
