@@ -21,8 +21,10 @@ Simple Map
 
 <div data-role="content">	
        
-     	<input type="file" accept="image/*;capture=camera">
-		<div id="imagePreview"></div>
+       <label for="phonegapcamera"> Use PhoneGap to take an image </label>
+       	<button id="phonegapcamera" onclick="capturePhoto();">Capture Photo</button> <br>
+       
+		<img style="display:none;width:200px;height:200px;" id="image" src="" />
         
 	</div>
 
