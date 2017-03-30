@@ -17,6 +17,8 @@
         Ian Treanor
     </author>
 
+	<!-- Define the main entry-point to the application -->
+	<content src="index.html" />
     <!--
         If you do not want any permissions to be added to your app, add the
         following tag to your config.xml; you will still have the INTERNET
@@ -40,10 +42,10 @@
     <preference name="android-installLocation"    value="auto" />           <!-- android: app install location. 'auto' will choose. 'internalOnly' is device memory. 'preferExternal' is SDCard. -->
 	<preference name="StatusBarOverlaysWebView"	  value="false" />			<!-- StatusBarOverlaysWebView (boolean, defaults to true). On iOS 7, make the statusbar overlay or not overlay the WebView at startup.-->
 	<preference name="StatusBarBackgroundColor"   value="#000000" />
-    <!--
-        Define a specific version of PhoneGap to build into your app.
-        <preference name="phonegap-version"       value="3.5.0" />
-    -->
+    
+    <!--Define a specific version of PhoneGap to build into your app.-->
+	<preference name="phonegap-version"       value="6.5.0" />
+    
 
     <!-- Plugins -->
 
@@ -75,7 +77,7 @@
     <!-- A list of available plugins are available at https://build.phonegap.com/plugins -->
  
     <!-- Define app icon for each platform. -->
-    <icon src="E:\Ian Uni\Year 2\Mobile applications development\Build 8/icon.png"/>
+    <icon src="www/res/icon/icon.png"/>
 
 
     <!-- Define app splash screen for each platform. -->
