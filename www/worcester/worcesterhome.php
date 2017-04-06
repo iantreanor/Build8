@@ -17,29 +17,21 @@ Beers
 	<a href="javascript:history.back()" data-role="button" data-icon="back">Back</a>
 </div>
 
-<img src="../img/worcbeerfest.jpg" height="50%" width="80%";>
+<div class="worlogo">
+<img src="../img/worcbeerfest.png" height="50%" width="80%";>
+</div>
 
 <ul data-role="listview">  
-<li><a href="worcesterbeers.html" class="ui-btn ui-icon-home ui-btn-icon-left">BEERS</a><span class="ui-icon ui-icon-arrowthick-1-n"></span></li>
-
-<li><a href="brewery.html" class="ui-btn ui-icon-eye ui-btn-icon-left">BREWERYS</a><span class="ui-icon ui-icon-arrowthick-1-n"></span></li>
-
-<li><a href="worcesterlocation.html" class="ui-btn ui-icon-location ui-btn-icon-left">LOCATION MAP</a><span class="ui-icon ui-icon-arrowthick-1-n"></span></li>
-
-<li><a href="weather.html" class="ui-btn ui-icon-cloud ui-btn-icon-left">WEATHER FORCAST</a><span class="ui-icon ui-icon-arrowthick-1-n"></span></li>
-
-<li><a href="camera.html" class="ui-btn ui-icon-camera ui-btn-icon-left">CAMERA</a><span class="ui-icon ui-icon-arrowthick-1-n"></span></li>
-
+<li><a href="worcesterbeers.php" class="ui-btn ui-icon-home ui-btn-icon-left">BEERS</a><span class="ui-icon ui-icon-arrowthick-1-n"></span></li>
+<li><a href="brewery.php" class="ui-btn ui-icon-eye ui-btn-icon-left">BREWERYS</a><span class="ui-icon ui-icon-arrowthick-1-n"></span></li>
+<li><a href="worcesterlocation.php" class="ui-btn ui-icon-location ui-btn-icon-left">LOCATION MAP</a><span class="ui-icon ui-icon-arrowthick-1-n"></span></li>
+<li><a href="weather.php" class="ui-btn ui-icon-cloud ui-btn-icon-left">WEATHER FORCAST</a><span class="ui-icon ui-icon-arrowthick-1-n"></span></li>
+<li><a href="camera.php" class="ui-btn ui-icon-camera ui-btn-icon-left">CAMERA</a><span class="ui-icon ui-icon-arrowthick-1-n"></span></li>
 </ul>
 
 <div data-role="footer" data-position="fixed">
 <div data-role="navbar">
-  <ul>
-  <li><a href="../index.html" class="ui.btn-active"><img src="../img/home.png" width="100%" height="100%"></a></li>
-  <li><a href="../beers.html" class="ui.btn-active"><img src="../img/beermug3.png" width="100%" height="100%"></a></li>
-  <li><a href="../festival.html" class="ui.btn-active"><img src="../img/festival2.png" width="100%" height="100%"></a></li>
-  <li><a href="../brewery.html" class="ui.btn-active"><img src="../img/brewery3.png" width="100%" height="100%"></a></li>
-  <li><a href="../camera.html" class="ui.btn-active"><img src="../img/camera.png" width="100%" height="100%"></a></li>
+<?php include 'menu.php';?>
 
 </div>
 </div>

@@ -24,20 +24,15 @@ Beer festival app
   <br>
 
   <div class="festlogo">
-<a href="birmingham/birminghamhome.html"><img src="img/birminghambeerfest.png" width="20%" height="20%"></a>
+<a href="birmingham/birminghamhome.php"><img src="img/birminghambeerfest.png" width="20%" height="20%"></a>
 <a href="worcester/worcesterhome.php"><img src="img/wbeerfest.png" width="14%" height="14%"></a>
-<a href="londonhome.html"><img src="img/londonbeerfest.png" width="26%" height="26%"></a>
-<a href="bromsgrovehome.html"><img src="img/bromsbeerfest.png" width="60%" height="60%"></a>
+<a href="london/londonhome.php"><img src="img/londonbeerfest.png" width="26%" height="26%"></a>
+<a href="bromsgrove/bromsgrovehome.php"><img src="img/bromsbeerfest.png" width="60%" height="60%"></a>
 </div>
 
 <div data-role="footer" data-position="fixed" data-id="myfooter">
 <div data-role="navbar">
-  <ul>
-  <li><a href="index.html" class="ui.btn-active"><img src="img/home.png" width="100%" height="100%"></a></li>
-  <li><a href="beers.html" class="ui.btn-active"><img src="img/beermug3.png" width="100%" height="100%"></a></li>
-  <li><a href="festival.html" class="ui.btn-active"><img src="img/festival2.png" width="100%" height="100%"></a></li>
-  <li><a href="brewery.html" class="ui.btn-active"><img src="img/brewery3.png" width="100%" height="100%"></a></li>
-  <li><a href="camera.html" class="ui.btn-active"><img src="img/camera.png" width="100%" height="100%"></a></li>
+<?php include 'menu.php';?>
 
 </div>
 </div>

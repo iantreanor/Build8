@@ -71,13 +71,7 @@ Beers
  
 <div data-role="footer" data-position="fixed" data-id="myfooter">
 <div data-role="navbar">
-  <ul>
-  <li><a href="index.html" class="ui.btn-active"><img src="img/home.png" width="60%" height="60%"></a></li>
-  <li><a href="beers.html" class="ui.btn-active"><img src="img/beermug3.png" width="60%" height="60%"></a></li>
-  <li><a href="festival.html" class="ui.btn-active"><img src="img/festival2.png" width="60%" height="60%"></a></li>
-  <li><a href="brewery.html" class="ui.btn-active"><img src="img/brewery3.png" width="60%" height="60%"></a></li>
-  <li><a href="camera.html" class="ui.btn-active"><img src="img/camera.png" width="100%" height="100%"></a></li>
-</ul>
+<?php include 'menu.php';?>
 </div>
 </div>
   </body>

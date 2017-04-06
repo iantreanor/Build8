@@ -28,8 +28,8 @@ Beers
 <ul data-role="listview" data-autodividers="true" data-filter="true">
 <li><a		><h2>	An Howl	</h2><p>	Bromsgrove	</p></a></li>
 <li><a		><h2>	Au	</h2><p>	Worcester	</p></a></li>
-<li><img src="img/AztecGold.png"><a href="worcester/AztecGold.php"><h2>	Aztec Gold	</h2><p>	Worcester	</p></a></li>
-<li><img src="img/BadDayAtTheOffice.png"><a href="worcester/BadDayAtTheOffice.php"><h2>	Bad Day At The Office	</h2><p>	Worcester	</p></a></li>
+<li><a href="worcester/aztecgold.php"><img src="img/AztecGold.png"><h2>	Aztec Gold	</h2><p>	Worcester	</p></a></li>
+<li><a href="worcester/BadDayAtTheOffice.php"><img src="img/BadDayAtTheOffice.png"><h2>	Bad Day At The Office	</h2><p>	Worcester	</p></a></li>
 <li><a		><h2>	Bad Day at the Office Pale Ale	</h2><p>	London	</p></a></li>
 <li><a		><h2>	Better the Devil you Know	</h2><p>	Birmingham	</p></a></li>
 <li><a		><h2>	Blonde	</h2><p>	Birmingham	</p></a></li>
@@ -59,7 +59,7 @@ Beers
 <li><a		><h2>	Market Porter	</h2><p>	Bromsgrove	</p></a></li>
 <li><a		><h2>	No Escape	</h2><p>	Birmingham	</p></a></li>
 <li><a		><h2>	Norwegian Blue	</h2><p>	Bromsgrove	</p></a></li>
-<li><img src="img/NotJustJam.png"><a href="worcester/NotJustJam.php"><h2>	Not Just Jam	</h2><p>	Worcester	</p></a></li>
+<li><a href="worcester/NotJustJam.php"><img src="img/NotJustJam.png"><h2>	Not Just Jam	</h2><p>	Worcester	</p></a></li>
 <li><a		><h2>	Rabbie's Porter	</h2><p>	London	</p></a></li>
 <li><a		><h2>	Ratmospheric	</h2><p>	Bromsgrove	</p></a></li>
 <li><a		><h2>	Sandpiper	</h2><p>	Worcester	</p></a></li>
@@ -67,9 +67,9 @@ Beers
 <li><a		><h2>	Silkie Stout	</h2><p>	Worcester	</p></a></li>
 <li><a		><h2>	Stab In The Dark	</h2><p>	Birmingham	</p></a></li>
 <li><a		><h2>	Stout 	</h2><p>	Worcester	</p></a></li>
-<li><img src="img/StuckonBlondes.png"><a href="worcester/StuckonBlondes.php"><h2>	Stuck on Blondes	</h2><p>	Worcester	</p></a></li>
+<li><a href="worcester/StuckonBlondes.php"><img src="img/StuckonBlondes.png"><h2>	Stuck on Blondes	</h2><p>	Worcester	</p></a></li>
 <li><a		><h2>	Summer Daze	</h2><p>	London	</p></a></li>
-<li><img src="img/TenStoreyMaltBomb.png"><a href="worcester/TenStoreyMaltBomb.php"><h2>	Ten Storey Malt Bomb	</h2><p>	Worcester	</p></a></li>
+<li><a href="worcester/TenStoreyMaltBomb.php"><img src="img/TenStoreyMaltBomb.png"><h2>	Ten Storey Malt Bomb	</h2><p>	Worcester	</p></a></li>
 <li><a		><h2>	The Rev. James Rye	</h2><p>	London	</p></a></li>
 <li><a		><h2>	Wild	</h2><p>	London	</p></a></li>
 <li><a		><h2>	William Mucklow's Dark Mild	</h2><p>	London	</p></a></li>
@@ -80,13 +80,7 @@ Beers
  
 <div data-role="footer" data-position="fixed" data-id="myfooter">
 <div data-role="navbar">
-  <ul>
-  <li><a href="index.html" class="ui.btn-active"><img src="img/home.png" width="60%" height="60%"></a></li>
-  <li><a href="beers.html" class="ui.btn-active"><img src="img/beermug3.png" width="60%" height="60%"></a></li>
-  <li><a href="festival.html" class="ui.btn-active"><img src="img/festival2.png" width="60%" height="60%"></a></li>
-  <li><a href="brewery.html" class="ui.btn-active"><img src="img/brewery3.png" width="60%" height="60%"></a></li>
-  <li><a href="camera.html" class="ui.btn-active"><img src="img/camera.png" width="100%" height="100%"></a></li>
-</ul>
+<?php include 'menu.php';?>
 </div>
 </div>
   </body>

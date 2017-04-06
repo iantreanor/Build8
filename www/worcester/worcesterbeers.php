@@ -34,11 +34,11 @@ Beers
 	<th><b>Type</b></th>
   </tr>
 
-<tr><td>	<a href="AztecGold.php">Aztec Gold	</td><td>	4.10	%	</td><td>	Golden Ale	</td></tr>
-<tr><td>	<a href="NotJustJam.php">Not Just Jam	</td><td>	4.10	%	</td><td>	mild	</td></tr>
-<tr><td>	<a href="StuckonBlondes.php">Stuck on Blondes	</td><td>	3.90	%	</td><td>	Golden Ale	</td></tr>
-<tr><td>	<a href="BadDayAtTheOffice.php">Bad Day At The Office	</td><td>	5.00	%	</td><td>	Speciality	</td></tr>
-<tr><td>	<a href="TenStoreyMaltBomb.php">Ten Storey Malt Bomb	</td><td>	4.00	%	</td><td>	Speciality	</td></tr>
+<tr><td>	<a href="aztecgold.php">Aztec Gold	</td><td>	4.10	%	</td><td>	Golden Ale	</td></tr>
+<tr><td>	<a href="notjustjam.php">Not Just Jam	</td><td>	4.10	%	</td><td>	mild	</td></tr>
+<tr><td>	<a href="stuckonblondes.php">Stuck on Blondes	</td><td>	3.90	%	</td><td>	Golden Ale	</td></tr>
+<tr><td>	<a href="baddayattheoffice.php">Bad Day At The Office	</td><td>	5.00	%	</td><td>	Speciality	</td></tr>
+<tr><td>	<a href="tenstoreymaltbomb.php">Ten Storey Malt Bomb	</td><td>	4.00	%	</td><td>	Speciality	</td></tr>
 <tr><td>	<a href="worcbeers/ .html">Farmers Pale	</td><td>	5.00	%	</td><td>	IPA	</td></tr>
 <tr><td>	<a href="worcbeers/ .html">Sandpiper	</td><td>	3.60	%	</td><td>	IPA	</td></tr>
 <tr><td>	<a href="worcbeers/ .html">Au	</td><td>	5.20	%	</td><td>	Strong Ale	</td></tr>
@@ -55,13 +55,7 @@ Beers
 
 <div data-role="footer" data-position="fixed">
 <div data-role="navbar">
-  <ul>
-  <li><a href="../index.html" class="ui.btn-active"><img src="../img/home.png" width="100%" height="100%"></a></li>
-  <li><a href="../beers.html" class="ui.btn-active"><img src="../img/beermug3.png" width="100%" height="100%"></a></li>
-  <li><a href="../festival.html" class="ui.btn-active"><img src="../img/festival2.png" width="100%" height="100%"></a></li>
-  <li><a href="../brewery.html" class="ui.btn-active"><img src="../img/brewery3.png" width="100%" height="100%"></a></li>
-  <li><a href="../camera.html" class="ui.btn-active"><img src="../img/camera.png" width="100%" height="100%"></a></li>
-</ul>
+<?php include 'menu.php';?>
 </div>
 </div>
 

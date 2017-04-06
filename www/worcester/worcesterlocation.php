@@ -22,6 +22,7 @@ Simple Map
 
 <H1>Location</h1><p>Worcester Racecourse is a thoroughbred horse racing venue located in the city of Worcester, Worcestershire, England. 
 Horse racing has taken place here since at least 1718. The beer festival has a section in the middle of the course with beers sold within a markey</p>
+<iframe src="https://www.google.com/maps/d/embed?mid=1xNU8G54YvavDBABKeiZejXGMA7Q" width="340" height="280"></iframe>
 
 <H1>Facilities</h1><p>The festival has numerous places to purchase food. Live music is payed in an adjasent markey. Toilets provided. Large outdoor area to enjoy when the sun shines</p>
 

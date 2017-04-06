@@ -20,7 +20,7 @@ UKBF App
 
 <div class="logo">
 <img src="img/logo.png" class="logoimg">
-   </div>
+   </div> 
    
 <br>
 
