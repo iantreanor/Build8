@@ -17,7 +17,7 @@ Beers
 	<a href="javascript:history.back()" data-role="button" data-icon="back">Back</a>
 </div>
 
-<img src="../img/wbeerfest.jpg" height="50%" width="80%";>
+<img src="../img/worcbeerfest.jpg" height="50%" width="80%";>
 
 <ul data-role="listview">  
 <li><a href="birminghambeers.html" class="ui-btn ui-icon-home ui-btn-icon-left">BEERS</a><span class="ui-icon ui-icon-arrowthick-1-n"></span></li>
